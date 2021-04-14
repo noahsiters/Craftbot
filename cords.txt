@@ -1,0 +1,25 @@
+House: -523 70 -161
+Portal: -55 61 -4
+Bastion: 73 80 28
+Village: -325 84 80
+Bastion: 46 41 53
+Bastion: 101 84  -287
+Bastion: -330 76 189
+Fortress: -560 60 93
+Portal Dessert: -4380 67 902
+Terracotta: -4572 70 1208
+Nether Portal Terracotta: -700 75 277
+Portal Terracotta: -5618 64 2221
+Fortress: -595 66 108
+Bastion: 56 59 -17
+Portal Adventure: 4094 12 2324
+Portal Entrace: 4094 67 2381
+Coral Reef: 9169 62 5871
+Coral Reef: 8439 62 12226
+Portal (Nether) Adventure: 907 83 1361
+Jungle: -2730 70 -784
+Blue/Packed Ice: 4162 63 2669
+End Portal: -310 39 460
+End: -728 59 -1023
+End Teleporter: -2875 66 -1888
+Netherite Mine: -202 33 381
