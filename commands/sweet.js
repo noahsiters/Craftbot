@@ -22,8 +22,8 @@ module.exports = {
 
         num = getRandomInt();
 
-        //40% chance for this to fire
-        if(num <= 40){
+        //35% chance for this to fire
+        if(num <= 35){
             response = "or did i misread that";
             switch(getRandomInt(12)){
                 case 0:
