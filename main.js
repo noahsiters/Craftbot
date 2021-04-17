@@ -16,7 +16,7 @@ for(const file of commandFiles){
 }
 
 client.once('ready', () => {
-    console.log("craftbot is online! " + version);
+    console.log("craftbot is online!");
 
     client.user.setPresence("Use !help for information");
 })
@@ -41,7 +41,7 @@ client.on('message', message => {
         console.log('Called command' + command);
     }
     else if(command === 'help'){
-        client.commands.get('help').execute(message, args, version);
+        client.commands.get('help').execute(message, args);
         console.log('Called command' + command);
     }
     else if(command === 'wiki'){
