@@ -20,12 +20,13 @@ module.exports = {
             message.channel.send("sw" + word.substring(1));
         }
 
-        num = getRandomInt();
+        num = getRandomInt(100);
 
         //35% chance for this to fire
         if(num <= 35){
             response = "or did i misread that";
-            switch(getRandomInt(12)){
+            console.log("i got here!!");
+            switch(getRandomInt(11)){
                 case 0:
                     response = "now you see, i was bullied from a young age so that is why i am like this";
                     sleep = 2000;
@@ -43,7 +44,7 @@ module.exports = {
                     sleep = 2000;
                     break;
                 case 4:
-                    response = "damn im so fucking funny";
+                    response=  "or did i misread that..";
                     sleep = 2000;
                     break;
                 case 5:
@@ -77,9 +78,7 @@ module.exports = {
                 case 12:
                     response = "orrr";
                     sleep = 1000;
-                case 13:
-                    response=  "or did i misread that..";
-                    sleep = 2000;
+                    break;
                 default:
                     response = "ok it happened, get used to it";
                     sleep = 2000;

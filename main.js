@@ -4,7 +4,6 @@ const Discord = require ('discord.js');
 const fs = require('fs'); //to access physical file system
 const client = new Discord.Client();
 const token = process.env.BOT_TOKEN;
-var version = '1.2';
 
 //setting up system to execute commands from other .js command files
 const prefix = '!';
@@ -18,6 +17,8 @@ for(const file of commandFiles){
 
 client.once('ready', () => {
     console.log("craftbot is online! " + version);
+
+    client.user.setPresence("Use !help for information");
 })
 
 client.on('message', message => {
