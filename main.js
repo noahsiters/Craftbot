@@ -71,13 +71,13 @@ client.on('message', message => {
 client.on('message', message => {
     if(message.author.bot) return;
 
-    const args = message.content; //puts content into args array
-    num = getRandomInt(100);
+    // const args = message.content; //puts content into args array
+    // num = getRandomInt(100);
 
     //has 1% chance of firing
-    if(num <= 1){
-        client.commands.get('sweet').execute(message, args);
-    }
+    // if(num <= 1){
+    //     client.commands.get('sweet').execute(message, args);
+    // }
 })
 
 //function for random number generation
